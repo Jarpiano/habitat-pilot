@@ -1,0 +1,54 @@
+enable  : true
+title   : Our 2022 - 2023 Officers
+alt_title: Our Trusted Team
+ack_title: Acknowledgement
+acknowledgement:
+  - name        : John Doe
+    designation : Sponsor
+    description : Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu scelerisque felis imperdiet proin fermentum leo vel. Quam id leo in vitae turpis massa sed elementum
+  - name        : Disclaimer
+    description : Wallpaper images included in "Home" and "Events" are from Pixabay.
+members  :
+  - image       : images/team/team-member-one.jpg
+    name        : HAIDER MAHDI
+    designation : President
+    media     :
+    linkedIn    : https://www.linkedin.com/
+    description : Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu scelerisque felis imperdiet proin fermentum leo vel. Quam id leo in vitae turpis massa sed elementum. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue. Venenatis a condimentum vitae sapien. Fames ac turpis egestas sed. Ac tortor vitae purus faucibus ornare suspendisse. Maecenas sed enim ut sem viverra. Eu augue ut lectus arcu bibendum at varius. Ullamcorper dignissim cras tincidunt lobortis feugiat. At lectus urna duis convallis convallis tellus. Nunc aliquet bibendum enim facilisis gravida. Ut eu sem integer vitae justo eget magna.
+
+  - image       : images/team/team-member-two.jpg
+    name        : MOHAMMED IQBAL
+    designation : Vice President
+    twitter     : https://www.twitter.com/
+    linkedIn    : https://www.linkedin.com/
+    instagram   : https://www.instagram.com/
+    description : Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu scelerisque felis imperdiet proin fermentum leo vel. Quam id leo in vitae turpis massa sed elementum. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue. Venenatis a condimentum vitae sapien. Fames ac turpis egestas sed. 
+
+  - image       : images/team/team-member-three.jpg
+    name        : TONY HUNYH
+    designation : Secretary
+    twitter     : https://www.twitter.com/
+    linkedIn    : https://www.linkedin.com/
+    description : Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu scelerisque felis imperdiet proin fermentum leo vel. Quam id leo in vitae turpis massa sed elementum.
+
+  - image       : images/team/team-member-four.jpg
+    name        : JARED BARON PANARES
+    designation : Event Coordinator
+    linkedIn    : https://www.linkedin.com/
+    description : Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu scelerisque felis imperdiet proin fermentum leo vel. Quam id leo in vitae turpis massa sed elementum. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue. Venenatis a condimentum vitae sapien. Fames ac turpis egestas sed. Ac tortor vitae purus faucibus ornare suspendisse. Maecenas sed enim ut sem viverra.
+
+  - image       : images/team/team-member-five.jpg
+    name        : MELVIN OPARA
+    designation : Social Media Manager
+    twitter     : https://www.twitter.com/
+    linkedIn    : https://www.linkedin.com/
+    instagram   : https://www.instagram.com/
+    description : Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu scelerisque felis imperdiet proin fermentum leo vel. Quam id leo in vitae turpis massa sed elementum. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue. Venenatis a condimentum vitae sapien. Fames ac turpis egestas sed. Ac tortor vitae purus faucibus ornare suspendisse. Maecenas sed enim ut sem viverra. Eu augue ut lectus arcu bibendum at varius. Ullamcorper dignissim cras tincidunt lobortis feugiat. 
+
+  - image       : images/team/team-member-six.jpg
+    name        : JACOB FORRAY
+    designation : Social Media Manager
+    twitter     : https://www.twitter.com/
+    linkedIn    : https://www.linkedin.com/
+    instagram   : https://www.instagram.com/
+    description : Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu scelerisque felis imperdiet proin fermentum leo vel. Quam id leo in vitae turpis massa sed elementum. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue. Venenatis a condimentum vitae sapien.

@@ -1,0 +1,11 @@
+mail:
+  title: "Email"
+  email: "XXXX@gmail.com"
+  link: "#"
+services:
+  - title: "Discord"
+    link: "https://discord.com/"
+  - title: "Instagram"
+    link: "https://www.instagram.com/"
+  - title: "Band"
+    link: "https://band.us/en"
