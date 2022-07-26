@@ -1,4 +1,4 @@
-baseURL       = "http://example.org/"
+baseURL       = "https://Jarpiano.github.io/habitat-pilot/"
 languageCode  = "en-us"
 title         = "THS Habitat For Humanity"
 theme         = "roxo"
