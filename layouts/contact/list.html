@@ -10,14 +10,15 @@
       <div class="col-lg-6 ml-auto">
         <div class="site-contact-form">
           <h4>{{ .Params.form_heading }}</h4>
-          <ul>
           {{ with .Site.Data.via }}
+          <p><a class="site-contact-form-mail" href="mailto:{{ .mail.email }}" target="_blank">{{ .mail.email }}</a></p>
+          <h5>{{ .subtitle }}</h5>
+          <ul>
           {{ range .services }}
-            <li>{{ .title }}<br><a href="{{ .link }}" target="_blank">{{ .link  }}</a></li>
-          {{end}}
-            <li>{{ .mail.title }}<br><a href="{{ .link }}" target="_blank">{{ .mail.email }}</a></li>
+            <li><a href="{{ .link }}" target="_blank">{{ .title }}  </a><img class="site-contact-form-icon" src="{{ .image | absURL }}" alt="{{ .title }}-image"></li>
           {{end}}
           </ul>
+          {{end}}
         </div>
       </div>
     </div>

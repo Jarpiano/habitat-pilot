@@ -70,7 +70,7 @@ summarylength = 25
     title               = "LET’S MAKE A DIFFERENCE"
     primary_button      = "Apply Now"
     primary_button_url  = "contact"
-    secondary_button    = "Not Convinced"
+    secondary_button    = "See Events"
     secondary_button_url = "events"
 
   [params.footer]
@@ -106,4 +106,4 @@ summarylength = 25
       # Footer Service
       [params.footer.service]
         title       = "Credits"
-        description = 'This site was built using the <a href="https://gohugo.io/" target="_blank">Hugo</a> framework, forked from the <a href="https://github.com/StaticMania/roxo-hugo" target="_blank">roxo</a> theme, and created by Jared Baron Panares'
+        description = 'This site was built using the <a href="https://gohugo.io/" target="_blank">Hugo</a> framework using the Hugo <a href="https://github.com/StaticMania/roxo-hugo" target="_blank">roxo</a> theme and created by Jared Baron Panares'

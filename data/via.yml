@@ -1,11 +1,14 @@
+subtitle: "Find us on social media"
 mail:
   title: "Email"
-  email: "XXXX@gmail.com"
-  link: "#"
+  email: "example@gmail.com"
 services:
   - title: "Discord"
     link: "https://discord.com/"
+    image: "images/contacts/discord-brands.svg"
   - title: "Instagram"
     link: "https://www.instagram.com/"
+    image: "images/contacts/instagram-brands.svg"
   - title: "Band"
     link: "https://band.us/en"
+    image: "images/contacts/comment-solid.svg"
