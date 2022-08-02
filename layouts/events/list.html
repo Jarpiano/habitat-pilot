@@ -30,8 +30,8 @@
           <h2 class="site-meeting-title">{{ .title }}</h2>
           <h4 class="site-meeting-subtitle">{{ .subtitle }}</h4>
           <ul>
-          <li class="site-meeting-subtitle"><h5>{{ .notice }}</h5></li>
-          <li class="site-meeting-subtitle"><h5>{{ .statement }}</h5></li>
+          <li class="site-meeting-subtitle">{{ .notice }}</li>
+          <li class="site-meeting-subtitle">{{ .statement }}</li>
         </ul>
         </div>
       </div>
@@ -87,15 +87,34 @@
               </div>
           </div>    
         </div>
+        {{ if eq .option 2}}
+        <div class="site-project-partial-scroll ">
+          {{ $items := $.Site.Data.planned.items }}
+          {{ range $index, $value := $items}}
+          <div class="site-project-partial-scroll-custom col-4 card mt-3 {{ if  not (eq (add $index 1) (len $items)) }} mr-5 {{end}}">
+            <div class="card-deck">
+              <img src="{{ .image }}" class="card-img" alt="{{ .title }} image">
+              <div class="card-body">
+                <h5 class="card-title">{{ .title }}</h5>
+                <p class="card-text">{{ .description }}</p>
+                <p class="card-text"><small class="text-muted">Last updated {{ .recency | time.Format ":date_long"}}</small></p>
+              </div>
+            </div>
+          </div> 
+          {{end}}  
+        </div> 
         {{end}}
+      {{end}}
       </div>
+      
     </div>
+    {{ if eq $.Site.Data.planned.option 1}}
     <div class="site-project-partial-scroll">
       {{ $items := $.Site.Data.planned.items }}
       {{ range $index, $value := $items}}
       <div class="site-project-partial-scroll-custom col-4 card mt-3 {{ if eq (add $index 1) (len $items) }} mr-5 {{ else if eq $index 0 }} ml-5 mr-5 {{else}} mr-5 {{end}}">
         <div class="card-deck">
-          <img src="{{ .image | absURL }}" class="card-img" alt="{{ .title }} image">
+          <img src="{{ .image }}" class="card-img" alt="{{ .title }} image">
           <div class="card-body">
             <h5 class="card-title">{{ .title }}</h5>
             <p class="card-text">{{ .description }}</p>
@@ -105,6 +124,7 @@
       </div> 
       {{end}}  
     </div> 
+    {{end}}
     <div class="container">
       <div class="row">
         <div class="col-12">
